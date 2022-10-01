@@ -8,7 +8,7 @@ This repository contains models based on the enhanced deep residual networks for
 ### Models
 SRGAN was one of the first generative adversarial model trained for single image super-resolution up to an upscaling factor of 4. Based on that, \
 enhanced SRGAN (ESRGAN) improved the upscaling performance by modifying the overall architecture. In the generator model, batch normalization is removed  and residual-in-residual dense blocks (RRDB) are used to increase depth and connectivity of the network. Furthermore, a relativistic average discriminator is used, which predicts predicts a realsitic or fake batch relative to the ground truth data distribution.
-![](docs/patchgan_dics.png)
+![](docs/patchgan_disc.png)
 
 ### Datasets
 DIV2K is a widely used dataset for training super-resolution models. It consists of 1000 high-definition RGB images \
